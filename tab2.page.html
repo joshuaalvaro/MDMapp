@@ -3,40 +3,36 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="background">
+<ion-content center class="background">
+  <div class="content-container">
   <div class="judul">
     <ion-img class="brilogo" src="assets/brilogo.png"> </ion-img>
     <h1> MDM Implementation </h1>
   </div>
 
+  
+        <ion-card class="dedupcard">
+          <ion-item lines="none" class="DedupCustomerItem">
+            <ion-label class="IconLabel">
+              <ion-icon name="people"></ion-icon>
+              <ion-label class="deduplabel" >Dedup Customer</ion-label>
+            </ion-label>
+          </ion-item>
+        </ion-card>
+ 
+      
+  
+        <ion-card class="searchcard">
+          <ion-item lines="none" class='SearchCustomerItem'>
+            <ion-label class="IconLabel">
+              <ion-icon name="search"></ion-icon>
+              <ion-label class="SearchLabel">Search Customer</ion-label>
+            </ion-label> 
+          </ion-item>
+        </ion-card>
 
-  <div class="bigcontent">
-  
-  <div class="content1">
-    <ion-item class="DedupCustomer"> 
-          <ion-label class="deduplabel">
-            <ion-icon name="people"></ion-icon>
-            <span>Dedup Customer</span>
-          </ion-label>
-    </ion-item>
-    </div>
-  
-  <div class="content2">
-    <ion-item class="SearchCustomer"> 
-        
-          <ion-label class="searchlabel">
-            <ion-icon name="search">Search Customer</ion-icon>
-         <span>Search Customer</span>
-        </ion-label>
-    </ion-item>
+
   </div>
-
-  </div>
-  
-
-  
-    
-  
    
 
 </ion-content>
