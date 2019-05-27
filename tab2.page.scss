@@ -1,65 +1,111 @@
+.content-container {
+    height: 100%;
+    width: 100%;
+}
 ion-img {
-    width:20%;
+    width:15%;
     margin-left: auto;
     margin-right: auto;
     justify-items: center;
-    margin-top:10%;
-    margin-bottom:5%;
+    margin-top:5%;
+    margin-bottom:3%;
 }
 
 h1 {
     text-align: center;
     font-size: 36pt;
     font-weight: bold;
+    margin-bottom: 5%
 }
 
 ion-icon {
-    font-size: 100px;
+    font-size: 120px;
     color: white;
     vertical-align: middle;
-    align-content: center;
+    align-self: center;
     position: relative;
-    margin: 0;
  }
 
- div.bigcontent {
-     display:flex;
-     justify-content: center;
-     align-items: center;
-     width: 100%;
-     height: 50vh;
+ ion-label {
+     vertical-align: middle;
+     
  }
- div.content1 {
+
+ .dedupcard {
+    --background: rgb(0, 151, 63);
+    color: white;
+    height: 100%;
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+    padding: 5%;
     float: left;
-    width: 400%;
+    margin: 0px;
+    align-self: center;
+    align-content: center;
+    vertical-align: middle;
+    
+}
 
-  }
-
-  .deduplabel {
-    background-color: rgb(0, 151, 63);
+ion-grid {
+    --ion-grid-width-xs: 100%;
+}
+.searchcard {
+    --background: rgb(255, 123, 0);
     color: white;
     height: 100%;
     width: 100%;
+    max-width: 50%;
     text-align: center;
     padding: 5%;
+    float: left;
+    margin: 0px;
+    align-self: center;
+    align-content: center;
+    vertical-align: middle;
 }
 
- div.content2 {
-   float: left;
-   width: 400%;
+ .DedupCustomerItem {
+     align-self: center;
+     vertical-align: middle;
+     position: relative;
+     margin: 0px;
+     --background:  rgb(0, 151, 63);
+     height: 100%;
+     width: 100%;
+     align-content: center;
  }
 
-.searchlabel {
-    background-color: rgb(255, 123, 0);
-    color: white;
+ .SearchCustomerItem {
+    align-self: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0px;
+    --background:  rgb(255, 123, 0);
     height: 100%;
+     width: 100%;
+     align-content: center;
+}
+.IconLabel{
     width: 100%;
+    height: 100%;
     text-align: center;
-    padding: 5%;
 }
 
-span{
-    display: block;
-    font-size: 20px;
-    margin-bottom: 3px !important;
+.deduplabel {
+    color: white;
+    text-align: center;
+    font-size: 28pt;
 }
+
+.SearchLabel {
+    color: white;
+    text-align: center;
+    font-size: 28pt;
+}
+.alignb{
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+
